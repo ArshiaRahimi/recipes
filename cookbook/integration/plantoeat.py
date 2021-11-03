@@ -77,6 +77,9 @@ class Plantoeat(Integration):
         recipe_list = []
         current_recipe = ''
 
+        a = 2
+        c = 4
+
         for fl in file.readlines():
             line = fl.decode("ANSI")
             if line.startswith('--------------'):

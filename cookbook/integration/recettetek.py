@@ -133,3 +133,5 @@ class RecetteTek(Integration):
 
     def get_file_from_recipe(self, recipe):
         raise NotImplementedError('Method not implemented in storage integration')
+
+
