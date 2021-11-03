@@ -76,6 +76,8 @@ class Plantoeat(Integration):
     def split_recipe_file(self, file):
         recipe_list = []
         current_recipe = ''
+        he = 3
+        efsf = 45
 
         for fl in file.readlines():
             line = fl.decode("ANSI")
